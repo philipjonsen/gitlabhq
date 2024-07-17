@@ -15,7 +15,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.6'
+gem 'rails', '~> 7.0.8'
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab'
 
@@ -60,7 +60,7 @@ gem 'devise-pbkdf2-encryptable', '~> 0.0.0', path: 'vendor/gems/devise-pbkdf2-en
 gem 'bcrypt', '~> 3.1', '>= 3.1.14'
 gem 'doorkeeper', '~> 5.6', '>= 5.6.6'
 gem 'doorkeeper-openid_connect', '~> 1.8', '>= 1.8.7'
-gem 'rexml', '~> 3.2.6'
+gem 'rexml', '~> 3.3.2'
 gem 'ruby-saml', '~> 1.15.0'
 gem 'omniauth', '~> 2.1.0'
 gem 'omniauth-auth0', '~> 3.1'
@@ -147,7 +147,7 @@ gem 'kaminari', '~> 1.2.2'
 gem 'hamlit', '~> 2.15.0'
 
 # Files attachments
-gem 'carrierwave', '~> 1.3'
+gem 'carrierwave', '~> 2.2'
 gem 'mini_magick', '~> 4.10.1'
 
 # for backups
@@ -202,7 +202,7 @@ gem 'gitlab-markup', '~> 1.9.0', require: 'github/markup'
 gem 'commonmarker', '~> 0.23.10'
 gem 'kramdown', '~> 2.3.1'
 gem 'RedCloth', '~> 4.3.2'
-gem 'rdoc', '~> 6.3.2'
+gem 'rdoc', '~> 6.3.4'
 gem 'org-ruby', '~> 0.9.12'
 gem 'creole', '~> 0.5.0'
 gem 'wikicloth', '0.8.1'
